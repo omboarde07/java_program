@@ -1,0 +1,23 @@
+//Label Class
+import java.awt.*;
+class LabelDemo extends Frame
+{
+	LabelDemo()
+	{
+		FlowLayout f1=new FlowLayout();
+		setLayout(f1);
+		Label L1=new Label("India");
+		Label L2=new Label("America");
+		Label L3=new Label("Pune");
+		add(L1);
+		add(L2);
+		add(L3);
+	}
+	public static void main(String args[])
+	{
+		LabelDemo f1=new LabelDemo();
+		f1.setVisible(true);
+		f1.setSize(500,500);
+		f1.setTitle("Label Demo");
+	}
+}
